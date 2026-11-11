@@ -1,0 +1,70 @@
+Render CH2-P054 at 1024×1536 pixels as two registered PNG files plus one authoritative text file: IAKESI-CH2-054-art.png, IAKESI-CH2-054-lettering.png, and IAKESI-CH2-054-text.txt.
+ARTWORK FILE — IAKESI-CH2-054-art.png: finished full-color page artwork only. Include panels, gutters, environments, characters, props, lighting and visual effects; include no speech balloons, thought balloons, narration boxes, lettering, captions, non-diegetic SFX, page numbers, panel numbers, or lettering placeholders.
+LETTERING FILE — IAKESI-CH2-054-lettering.png: transparent RGBA overlay at the identical pixel dimensions and registration. Include only the specified speech balloons, thought balloons, narration boxes, tails/dots, text, and non-diegetic SFX. Every other pixel must remain transparent; include no artwork and no page number.
+OUTPUT DIRECTORY — BINDING: place all three deliverables in the RenderedPages/ subdirectory of the current chapter project directory. Create RenderedPages/ if it does not exist, when filesystem access is available. Required relative output paths: RenderedPages/IAKESI-CH2-054-art.png; RenderedPages/IAKESI-CH2-054-lettering.png; RenderedPages/IAKESI-CH2-054-text.txt. Do not place final deliverables in RenderPackages/ or the chapter root. If rendering takes place in an environment without access to the user's chapter filesystem, return the three files with these exact filenames for installation into RenderedPages/; do not claim they were saved locally.
+Use 5 panels arranged vertically in reading order.
+Use the attached page package as the authoritative resolved SBL source if any ambiguity remains.
+Global production rules — BINDING:
+- Style Binding: IAKESI STYLE — BINDING: Use the established Chapter 1 realm distinction. World Observation Area and other Dimension of the Gods material use full-color near-photorealistic illustration: approximately 70 percent photorealistic and 30 percent manga influence, with realistic anatomy, dimensional lighting, skin, hair, fabric, materials, environments, and moderately manga-influenced facial aesthetics. Do not use obvious manga line art, flat cel coloring, or exaggerated anime proportions in DOTG scenes. Observed Zora and Nyas use the established full-color realistic manga treatment with clean black linework, readable silhouettes, expressive manga-influenced faces, controlled cel-like shadows, and materially specific environments. Do not apply Imaginos' 65/35 realistic Western comic style to either realm. Canonical character, culture, language, geography, mana, and WOA assets remain binding.
+- Reader Visible Text: Only dialogue, thoughts, captions, narration, and explicitly required diegetic writing are reader-visible. Page titles, scene labels, Action, Direction, Camera, Blocking, asset designations, settings, page asset bindings, and production instructions are never printed.
+- Two File Delivery Binding: Produce exactly two registration-identical PNG files for every rendered page. The first is IAKESI-CH2-###-art.png. The second is IAKESI-CH2-###-lettering.png with a fully transparent RGBA background. Do not generate a flattened composite as a replacement and do not place a folio in either file.
+- File 1 Base Artwork: Render complete page artwork only. Include panel art, borders, gutters, characters, environments, props, lighting, effects, and required diegetic environmental writing. Exclude dialogue balloons, thought balloons, tails, captions, narration boxes, story lettering, and folio. Preserve intentional negative space for planned lettering without drawing empty balloon shapes.
+- File 2 Lettering Overlay: Use a lossless RGBA PNG on a fully transparent canvas copied from the exact art master. Include only reader-visible speech balloons, thought balloons, tails, captions, narration boxes, dialogue, narration, and non-diegetic sound effects. Exclude panel art, scenery, borders, gutters, and folio.
+- Layer Registration: The art and lettering files must have identical dimensions, crop, orientation, and origin. Never independently regenerate, resize, crop, extend, or resample the art while creating the lettering overlay.
+- Lettering: Render reader-visible dialogue, thought text, narration, and captions in uppercase professional comic lettering. Preserve wording and punctuation. Keep balloons compact and subordinate to artwork.
+- Cultural Continuity: Zoran and Nyssarian physical traits, material culture, writing, technology, and mana practices must follow the referenced canonical assets and the chronology stated by the page.
+- Population Segregation: BINDING: Identifiable mortal occupants on a rendered page must be either Nyssarian or Zoran, never both. WOA characters and Goddesses may appear on any page. Distant geography or settlements are exempt only when individual mortal anatomy is not discernible.
+- Ear Canon: BINDING: Zorans have normal rounded human ears. Nyssarians have clearly pointed elven ears. Ear morphology is a population-identity constraint and must remain readable whenever ears are visible.
+- Development Cadence: Nyassarian and Zoran development occurs in separate narrative blocks and must not be depicted as synchronized or advancing at the same rate unless the script explicitly states it.
+- Divine Contact: Zorna may physically appear before Zorans because her emitted mana does not cause them mana poisoning. Nyssara must not physically appear before Nyssarians; direct exposure to her divine mana could injure them. Dreams and visions are the safe channel for Nyssara's guidance.
+- First Law Banner: On Page 28, render the exact reader-visible display lettering THE FIRST LAW OF WORLDS as a prominent banner spanning the page, separate from ordinary captions and dialogue, and place it only on the lettering overlay.
+- Dialogue Lettering Size: BINDING at the 1024×1536 master canvas: target 20 px uppercase comic lettering; permitted range 16–24 px. Use 20 px for most dialogue. Use 16–19 px only when necessary to fit longer dialogue cleanly, and use 21–24 px sparingly when emphasis or unusually open composition warrants it. Short dialogue uses a smaller balloon, not enlarged lettering. Balloons must remain compact and subordinate to artwork.
+- Speech Balloon Tail Geometry: BINDING: ordinary speech-balloon body and tail must be combined before fill and outline are applied, forming one continuous silhouette with a single uninterrupted exterior contour. Use a seamless curved tail base and unified outline. No separately outlined triangle, internal line across the tail base, visible gap, or overlapping appendage.
+Do not draw trim, crop, registration, bleed, or production marks.
+
+Panel 1:
+- Panel direction (not printed text): This is a quiet confirmation that the Zoran solution works. Keep the scene bright, readable, and hopeful without suggesting that the drought itself has magically disappeared.
+- Setting: Zoran communal well.
+- Camera: 24–35mm wide environmental frame.
+- Scene: Scene 1
+- Blocking: Zoran villagers only. Normal rounded human ears.
+- Action: Wide view of the Zoran community using its completed well. Adults draw and distribute water while children observe and help.
+
+Panel 2:
+- Panel direction (not printed text): Parallel the purpose of Scene 1 without copying the composition. Nyssarian technology and culture should remain visually distinct. No mana effects.
+- Setting: Nyssarian communal well.
+- Camera: 24–35mm wide environmental frame.
+- Scene: Scene 2
+- Blocking: Nyssarian villagers only. Clearly pointed/elven ears.
+- Action: Wide view of the Nyssarian community using its completed well. Adults draw and distribute water while children observe and help.
+
+Panel 3:
+- Panel direction (not printed text): The observation field may show the successful wells, but mortal figures should be too small for population anatomy to become ambiguous. Shift clearly back to the established DOTG visual treatment.
+- Setting: World Observation Area.
+- Camera: Wide horizontal 50mm narrative frame, showing Nyssara and the observation field.
+- Scene: Scene 3
+- Blocking: Nyssara.
+- Action: Return to the World Observation Area. Nyssara watches the two civilizations through the observation field, visibly relieved.
+- CH2-P054-S03-D01: Nyssara, speech balloon (one speaker tail): “...they found water.”
+
+Panel 4:
+- Panel direction (not printed text): Keep the emotional contrast with Nyssara clear. Zorna understands that the people succeeded, but she remains focused on the suffering they endured before succeeding.
+- Setting: World Observation Area.
+- Camera: Wide horizontal medium frame. Preserve the established dialogue axis.
+- Scene: Scene 4
+- Blocking: Zorna; Nyssara may remain visible if composition permits.
+- Action: Zorna remains troubled despite the successful outcome.
+- CH2-P054-S04-D01: Zorna, speech balloon (one speaker tail): “They suffered for months.”
+
+Panel 5:
+- Panel direction (not printed text): Make this the largest and strongest panel on the page. The visual payoff is generational knowledge: the Gods did not simply provide water; the mortals learned how to find and obtain it themselves. Keep the DOTG environment bright and clearly readable. Do not reproduce the overly dark treatment of the older artwork.
+- Setting: World Observation Area.
+- Camera: Wide 35–50mm concluding composition. Terra is prominent, with Nyssara and Zorna included where composition allows and the observation field clearly showing one generation teaching the next.
+- Scene: Scene 5
+- Blocking: Terra; Nyssara; Zorna.
+- Action: Terra watches the observation field. Within it, parents teach children how the wells work and how their people found the water. The emphasis is now on knowledge being passed forward rather than merely on the wells themselves.
+- CH2-P054-S05-D01: Terra, speech balloon (one speaker tail): “They learned for generations.”
+
+Story lettering rule: use exactly the 3 panel/story lettered items listed above, verbatim and in the stated balloon/chain structure. Do not invent, paraphrase, continue, summarize, or add any other story text. Page numbers are not part of this handoff and must not be rendered.
+PRODUCTION FOLIO RULE — BINDING: do not add a page number or panel number to either output. Folios are added manually in CSP.
+DELIVERY CHECK: return IAKESI-CH2-054-art.png and IAKESI-CH2-054-lettering.png as the two registered PNG layers. The companion IAKESI-CH2-054-text.txt is the authoritative wording file; both PNGs must be 1024×1536 pixels, perfectly registered, and unflattened.
